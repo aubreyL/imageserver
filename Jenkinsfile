@@ -3,7 +3,7 @@ node('default') {
     stage('Build Binary') {
     try {
       checkout scm
-      sh 'ci/build.sh'
+      sh 'build.sh'
     } 
   }
 /*  stage('Build Binary') {
